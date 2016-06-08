@@ -223,6 +223,12 @@ footer {
   bottom:50px;
   -webkit-font-smoothing:subpixel-antialiased;
   text-align: center;
+
+  i.fa {
+    font-size: 1.5em;
+    margin-left: 0.5em;
+    mergin-right: 0.5em;
+  }
 }
 
 @media print, screen and (max-width: 960px) {
