@@ -1,3 +1,15 @@
+/* @black:                 #000000; */
+/* @blacken:               #080808; */
+/* @grayDarkest:           #131313; */
+/* @grayDarker:            #212121; */
+/* @grayDark:              #333333; */
+/* @gray:                  #555555; */
+/* @grayLight:             #898989; */
+/* @grayLighter:           #cccccc; */
+/* @grayLightest:          #eeeeee; */
+/* @whiten:                #fbfbfb; */
+/* @white:                 #ffffff; */
+
 @font-face {
   font-family: 'Noto Sans';
   font-weight: 400;
@@ -56,9 +68,13 @@
 
 body {
   background-color: #fff;
+  background-image: url("../images/background.jpg");
+  background-attachment: fixed;
+  background-repeat: none;
+  background-size: cover;
   padding:50px;
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#727272;
+  color:#eeeeee;
   font-weight:400;
 }
 
@@ -77,18 +93,19 @@ h1, h2, h3 {
 
 h1 {
   font-size:28px;
+  color:#cccccc;
 }
 
 h2 {
-  color:#393939;
+  color:#898989;
 }
 
 h3, h4, h5, h6 {
-  color:#494949;
+  color:#ccc;
 }
 
 a {
-  color:#39c;
+  color:#ADD6EB;
   text-decoration:none;
 }
 
@@ -207,6 +224,19 @@ header ul a:active {
   background-color:#f0f0f0;
 }
 
+header h1 {
+  margin: auto;
+  text-align: center;
+}
+
+header img {
+  width: 8em;
+  display: block;
+  margin: auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
 strong {
   color:#222;
   font-weight:700;
@@ -246,6 +276,7 @@ footer {
   position:fixed;
   bottom:50px;
   -webkit-font-smoothing:subpixel-antialiased;
+  text-align: center;
 }
 
 @media print, screen and (max-width: 960px) {
@@ -286,6 +317,7 @@ footer {
 @media print, screen and (max-width: 720px) {
   body {
     word-wrap:break-word;
+    text-align: center;
   }
 
   header {
