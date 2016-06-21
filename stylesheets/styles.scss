@@ -42,11 +42,7 @@ h1 {
   color:$grayLighter;
 }
 
-h2 {
-  color:$grayLight;
-}
-
-h3, h4, h5, h6 {
+h2, h3, h4, h5, h6 {
   color:$grayLighter;
 }
 
@@ -170,9 +166,16 @@ header ul a:active {
   background-color:#f0f0f0;
 }
 
-header h1 {
-  margin: auto;
-  text-align: center;
+header {
+  h1, h4 {
+    margin: auto;
+    text-align: center;
+  }
+
+  h4 {
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+  }
 }
 
 header img {
