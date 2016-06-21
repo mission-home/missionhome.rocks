@@ -11,6 +11,8 @@ $grayLighter:           #cccccc;
 $grayLightest:          #eeeeee;
 $whiten:                #fbfbfb;
 $white:                 #ffffff;
+$lightBlue:             #add6eb;
+$linkColor:             $lightBlue;
 
 body {
   background-color: $white;
@@ -47,7 +49,7 @@ h2, h3, h4, h5, h6 {
 }
 
 a {
-  color:#ADD6EB;
+  color:$linkColor;
   text-decoration:none;
 }
 
@@ -167,12 +169,13 @@ header ul a:active {
 }
 
 header {
-  h1, h4 {
+  h1, h2, h3, h4, h5 {
     margin: auto;
     text-align: center;
   }
 
-  h4 {
+  h3, h4 {
+    color:$linkColor;
     margin-bottom: 0.5em;
     margin-top: 0.5em;
   }
