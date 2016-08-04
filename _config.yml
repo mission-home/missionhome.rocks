@@ -1,2 +1,5 @@
 title: mission:home
 description: Living Together in Gratitude
+url: http://missionhome.rocks
+gems:
+  - jekyll-seo-tag

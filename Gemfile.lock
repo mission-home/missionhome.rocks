@@ -123,3 +123,4 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-seo-tag
